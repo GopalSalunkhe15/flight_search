@@ -1,0 +1,71 @@
+.flight-image-container {
+  width: 106px;
+  float: right;
+  position: relative;
+  bottom: 114px;
+  right: 16px;
+}
+.option-container {
+  border: 1px solid;
+  padding: 6px 0px 8px 7px;
+  margin-bottom:4px
+}
+.flight-provider {
+  font-size: 28px;
+  color: skyblue;
+  margin-right: 20px
+}
+.price-container {
+  font-size: 20px;
+}
+.form-detail {
+  width: 40%;
+}
+.logo{
+  width: 106px
+}
+.Return-detail{
+  margin-left: 260px;
+    margin-top: -90px;
+}
+.option-dom{
+  position: absolute;
+  width: 540px;
+  top: 83px;
+  left: 218px;
+}
+.details-date{
+  width: auto;
+  position: absolute;
+  top: 43px;
+  display: inline-flex;
+  left: 218px;
+}
+.dates{
+  position: relative;
+  left: 228px;
+}
+.App{
+  width: 100%;
+    height: 700px;
+    border: 1px solid;
+}
+.maxPrice{
+  margin-left: 82px;
+  font-size: 11px;
+}
+.filter-price{
+  margin-top: 21px
+}
+.range-slider{
+  width: 172px
+}
+.lowPrice{
+  font-size: 11px;
+}
+.form-inputs{
+  padding-top: 17px;
+}
+.tabs{
+  padding-top: 8px;
+}

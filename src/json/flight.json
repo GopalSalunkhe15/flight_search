@@ -1,0 +1,55 @@
+{
+  "city": {
+    "delhi": {
+      "shortName": "DL",
+      "latitude": 28.7041,
+      "longitude": 77.1025
+    },
+    "pune": {
+      "shortName": "PN",
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    },
+    "mumbai": {
+      "shortName": "MUMB",
+      "latitude": 19.07609,
+      "longitude": 72.877426
+    },
+    "lucknow": {
+      "shortName": "LN",
+      "latitude": 26.85,
+      "longitude": 80.949997
+    },
+    "agra": {
+      "shortName": "AG",
+      "latitude": 27.1767,
+      "longitude": 78.0081
+    }
+  },
+  "flightProvider": {
+    "Air India": {
+      "speedPerHour": 800,
+      "morningDepartTime": 10,
+      "nightDepartTime": 20,
+      "ratePerKm":20
+    },
+    "Safe Air": {
+      "speedPerHour": 650,
+      "morningDepartTime": 9,
+      "nightDepartTime": 19,
+      "ratePerKm":30
+    },
+    "Happy Travel": {
+      "speedPerHour": 700,
+      "morningDepartTime": 8,
+      "nightDepartTime": 20,
+      "ratePerKm":10
+    },
+    "Fly": {
+      "speedPerHour": 750,
+      "morningDepartTime": 10,
+      "nightDepartTime": 18,
+      "ratePerKm":5
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.header-container {
+    border: 1px solid;
+    width: auto;
+    height: 34px;
+}
+.header{
+    text-align: left;
+    padding: 7px;
+}
