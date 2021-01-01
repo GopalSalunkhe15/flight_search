@@ -113,7 +113,15 @@ function App() {
     setOptionDom(optionDom);
   };
   const submit = () => {
-    if (originCity && destinationCity && departDate) {
+    let citys = Object.keys(customJson.city);
+    debugger;
+    if (
+      originCity &&
+      destinationCity &&
+      citys.includes(originCity) &&
+      citys.includes(destinationCity) &&
+      departDate
+    ) {
       let originCitylatitude = customJson.city[originCity].latitude,
         originCitylongitude = customJson.city[originCity].longitude,
         destinationCitylatitude = customJson.city[destinationCity].latitude,
