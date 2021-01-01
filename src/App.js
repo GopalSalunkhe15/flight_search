@@ -183,6 +183,7 @@ function App() {
           </div>
         </div>
         <div className="filter-price">
+          <div>Refine flight search</div>
           <div className="showPrice">
             <span className="lowPrice">10000 Rs</span>
             <span className="maxPrice"> {filterPrice} Rs</span>
